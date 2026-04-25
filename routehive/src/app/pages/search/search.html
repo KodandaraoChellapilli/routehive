@@ -1,0 +1,113 @@
+<div class="container">
+  <!-- Header -->
+  <header class="my-4">
+    <h1 class="text-center">RouteHive</h1>
+    <p class="text-center text-muted">Smart intercity travel & route discovery</p>
+  </header>
+
+  <!-- Search Form -->
+  <section>
+    <div class="container mt-5 d-flex justify-content-center">
+      <form class="search-form d-flex align-items-center shadow-lg">
+        <div class="row w-100 text-white">
+          <!-- From -->
+          <div class="col-md-3 d-flex align-items-center">
+            <div class="input-group">
+              <span class="input-group-text">
+                <i class="bi bi-geo-alt"></i>
+              </span>
+              <input type="text" class="form-control" placeholder="From location" value="" />
+            </div>
+          </div>
+
+          <!-- Swap Icon -->
+          <div class="col-md-1 text-center d-flex align-items-center justify-content-center">
+            <i class="bi bi-arrow-left-right fs-3"></i>
+          </div>
+
+          <!-- To -->
+          <div class="col-md-3 d-flex align-items-center">
+            <div class="input-group">
+              <span class="input-group-text">
+                <i class="bi bi-geo-alt-fill"></i>
+              </span>
+              <input type="text" class="form-control" placeholder="To destination" value="" />
+            </div>
+          </div>
+
+          <!-- Date -->
+          <div class="col-md-3 d-flex align-items-center">
+            <div class="input-group">
+              <span class="input-group-text">
+                <i class="bi bi-calendar"></i>
+              </span>
+              <input type="text" class="form-control" placeholder="Travel date" value="" />
+            </div>
+          </div>
+
+          <!-- Search Button -->
+          <div class="col-md-2 text-center">
+            <button type="submit" class="btn btn-primary w-100">FIND ROUTES</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Results -->
+  <section id="routes-list" class="my-4">
+    <h2>Available Routes</h2>
+
+    <div class="row">
+      <div class="col-12">
+        <!-- Card -->
+        <div class="card mb-3">
+          <div class="row g-0">
+            <!-- Left Info -->
+            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+              <h5 class="card-title">Express Route Operator</h5>
+              <p class="card-text">Premium Intercity Service</p>
+            </div>
+
+            <!-- Right Info -->
+            <div class="col-md-9">
+              <div class="card-body row">
+                <div class="col-md-2">
+                  <p><strong>19:00</strong></p>
+                  <p>Departure</p>
+                </div>
+
+                <div class="col-md-2">
+                  <p><strong>13h 55m</strong></p>
+                  <p>Duration</p>
+                </div>
+
+                <div class="col-md-2">
+                  <p><strong>08:55</strong></p>
+                  <p>Arrival</p>
+                  <p class="text-danger">Next Day</p>
+                </div>
+
+                <div class="col-md-2">
+                  <p><strong>4.5 ⭐</strong></p>
+                  <p>Ratings</p>
+                </div>
+
+                <div class="col-md-2">
+                  <p><strong>$35</strong></p>
+                  <p>Fare</p>
+                  <p>Seats Available: 8</p>
+                </div>
+
+                <div class="col-md-2 text-end">
+                  <button class="btn btn-success">SELECT SEATS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Card -->
+      </div>
+    </div>
+  </section>
+</div>

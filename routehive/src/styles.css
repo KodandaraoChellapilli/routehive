@@ -1,0 +1,70 @@
+.search-form {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.search-form .form-control {
+  border-radius: 12px;
+  border: none;
+  padding: 10px;
+}
+
+.search-form button {
+  border-radius: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.search-form .input-group-text {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+/* Route cards */
+.bus-layout {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 420px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Seat styling (kept but modernized) */
+.seat {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 2px solid #cfd8dc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.seat.available {
+  background-color: #ffffff;
+}
+
+.seat.available:hover {
+  background-color: #e3f2fd;
+  transform: scale(1.05);
+}
+
+.seat.selected {
+  background-color: #2a5298;
+  border-color: #2a5298;
+}
+
+.seat.reserved {
+  background-color: #b0bec5;
+  cursor: not-allowed;
+}
+
+.driver {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
